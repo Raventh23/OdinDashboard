@@ -9,13 +9,15 @@ div{
 .header{
     display: grid;
     grid-column: 2;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1.5fr;
     background-color: lavender;
+    border: none;
 }
 .topheader{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: none;
 }
 .topheader form{
     display: flex;
@@ -61,6 +63,53 @@ div{
     width: 33%;
     height: auto;
     font-size: 2em;
+}
+.bottomheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+}
+.bottomheader .userSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    border: none;
+}
+.bottomheader .pfp{
+    width: clamp(70px, 8vw, 100px);
+    border: none;
+    background-color: lavender;
+}
+.bottomheader .userSection .helloSection{
+    border: none;
+}
+.bottomheader #hi{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.bottomheader #user{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -1rem;
+}
+.bottomheader .postSection{
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+}
+.bottomheader .postSection button{
+    font-size: 1.5rem;
+    height: calc(1.5rem + 15px);
+    width: clamp(10%, 20%, 30%);
+    border-radius: 2rem;
+    background-color: teal;
+    color: white;
+    border: none;
 }
 .sidebar{
     display: grid;
