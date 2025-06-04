@@ -3,8 +3,8 @@ div{
 }
 .main{
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 0.7fr 4fr;
+    grid-template-rows: 0.5fr 2fr;
 }
 .header{
     display: grid;
@@ -118,16 +118,32 @@ div{
     grid-template-rows: 0.5fr 2fr;
     height: 95vh;
     background-color: rgb(70, 150, 242);
+    border: none;
+}
+.sidetitle {
+    border: none;
+}
+.lists {
+    border: none;
 }
 .sidetitle img{
         filter: invert(1);
         width: 20%;
 }
 .lists img{
-    width: 8%;
+    width: 10%;
 }
 .lists ul{
     filter: invert(1);
+    list-style: none;
+}
+.lists li{
+    font-size: 2rem;
+    display: flex;
+}
+
+.topList{
+    padding-bottom: 15%;
 }
 .sidetitle{
     grid-row: 1;
