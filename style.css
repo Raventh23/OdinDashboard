@@ -199,3 +199,27 @@ div{
     border: none;
     background-color: white;
 }
+.announcements{
+    border: none;
+}
+.announceCard{
+    margin-right: 1%;
+    background-color: white;
+    border: none;
+}
+.announce{
+    border-width: 1px;
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    border-left: none;
+    border-right: none;
+}
+.announceCard> *:first-child{
+    border-top: none;
+}
+.announceCard> *:last-child{
+    border-bottom: none;
+}
