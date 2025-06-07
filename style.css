@@ -223,3 +223,19 @@ div{
 .announceCard> *:last-child{
     border-bottom: none;
 }
+.trendingCard{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: -50%;
+}
+.trending{
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+
+}
+.trending img{
+    width: 15%;;
+}
